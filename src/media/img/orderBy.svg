@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="10.363936mm"
+   height="10.939723mm"
+   viewBox="0 0 10.363936 10.939723"
+   version="1.1"
+   id="svg1"
+   inkscape:export-filename="funil.svg"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Camada 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-0.81803217,-0.53013857)">
+    <g
+       id="g7"
+       transform="translate(-23.468861,25.177142)"
+       inkscape:export-filename=".\orderBy.svg"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
+      <path
+         style="fill:none;stroke:#ffffff;stroke-width:1.1;stroke-linecap:butt;stroke-linejoin:bevel;stroke-dasharray:none"
+         d="m 26.614056,-24.645054 0.03732,10.529189 2.016026,-1.865123 -2.024266,1.852581 -1.98806,-1.786359 1.9963,1.798901"
+         id="path5"
+         sodipodi:nodetypes="cccccc" />
+      <path
+         style="fill:none;stroke:#ffffff;stroke-width:1.1;stroke-linecap:butt;stroke-linejoin:bevel;stroke-dasharray:none"
+         d="m 28.538144,-24.060214 h 6.112685"
+         id="path6" />
+      <path
+         style="fill:none;stroke:#ffffff;stroke-width:1.1;stroke-linecap:butt;stroke-linejoin:bevel;stroke-dasharray:none"
+         d="m 28.538144,-21.063264 h 4.112685"
+         id="path6-0" />
+      <path
+         style="fill:none;stroke:#ffffff;stroke-width:1.1;stroke-linecap:butt;stroke-linejoin:bevel;stroke-dasharray:none"
+         d="m 28.538144,-18.066314 h 2.112685"
+         id="path6-0-3" />
+    </g>
+  </g>
+</svg>

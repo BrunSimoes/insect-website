@@ -1,38 +1,348 @@
-.App {
+:root {
+    --green: #65943f;
+    --white: rgb(238, 238, 238);
+    --whiteG: rgb(238, 242, 243);
+  }
+
+*{
+    padding: 0;
+    margin:0;
+}
+
+h1{
+  font-size: 4em;
+  font-family: 'Enriqueta', sans-serif;
+  font-weight: 1000;
+  line-height: 0.9em;
   text-align: center;
+  color: rgb(36, 36, 36);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h2{
+   font-size: 1.5em;
+   font-family: 'Enriqueta', sans-serif;
+   font-weight: normal;
+   color:var(--whiteG);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+h3{ 
+  color:var(--whiteG);
+  font-family: 'Enriqueta', sans-serif;
+  font-weight: medium;
+  font-size: 1em;
+}
+
+h4{
+    color:white;
+    font-size: 1.2em;
+    font-family: 'Enriqueta', sans-serif;
+    font-weight: medium;
+    border-bottom: 1px white solid;
+}
+
+h5{
+  font-size: 1.8em;
+  font-family: 'Enriqueta', sans-serif;
+  font-weight: medium;
+}
+
+h6{
+  font-size: 1em;
+  font-family: 'Enriqueta', sans-serif;
+  font-weight: medium;
+}
+
+nav{
+    display: flex;
+
+    width: calc(100% - 30px);
+    height: auto;
+
+    padding: 15px;
+    background-color: var(--green);
+
+    justify-content: space-between;
+    align-items: center;
+
+    position: sticky;
+    top: -1px;
+    left: 0;
+   
+    z-index: 1;
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+}
+
+/*////CLASS*/
+.bar{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(126, 126, 126); 
+    filter: blur(5px); 
+
+    top:-20px;
+    left: 0;
+    position: absolute;
+
+    animation-name: loadAn;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes loadAn{
+    0%   {top:-40px;}
+    100%  {top:240px;}
+}
+
+@keyframes loadAnBack{
+    0%   { background-color: (104, 104, 104);}
+    50%  { background-color: rgb(83, 83, 83);}
+    0%   { background-color: (104, 104, 104);}
+}
+
+.blocoEntrada{
+ width: 100%;
+ height: 70vh;
+
+ overflow: hidden;
+
+ position: relative;
+}
+
+.imageDiv{
+    width: 100%;
+    height: 100%;
+}
+
+.imageDiv>img{
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+    object-position: center center;
+}
+
+.textoBlocoEntr{
+    display: flex;
+    flex-wrap: wrap;
+
+    width: 1000px !important;
+    padding:10px 40px; 
+
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+
+    transform: translate(-50%,-50%);
+    background-color:var(--white);
+}
+
+.textoBlocoEntr>h6{
+    width:100%;
+    border-top: rgb(196, 196, 196) 2px dashed;
+    /*stroke-linecap: round;*/
+    stroke-dasharray: 9 9;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.all{
+ width: 1200px;
+ height: auto;
+
+ margin: auto;
+}
+
+.aaa{
+  width: 100%;
+  height: auto;
+  background-color: var(--green);
+
+  position: sticky;
+  top: -1px;
+  left: 0;
+ 
+  z-index: 1;
+}
+
+.corpo{
+    width: 100%;
+    height: auto;
+    display: block;
+    position: relative;
+}
+
+.corpoInt{
+    margin: 40px auto;
+    background-color: rgb(245, 245, 245);
+}
+
+.displayName{
+    border-bottom: 1px dashed black;
+    stroke-dasharray: 9 9;
+    margin-bottom: 10px;
+}
+
+.oculta{
+    display: none;
+}
+
+.loadingBoxDisplay{
+    display: block;
+
+    width:100%;
+    height: 100%;
+
+    animation-name: loadAnBack;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    background-color: rgb(104, 104, 104);
+
+    position: absolute;
+    top:0;
+    left:0;
+
+    overflow: hidden;
+}
+
+
+.grid{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows:auto;
+    column-gap: 10px;
+    row-gap: 10px;
+
+}
+
+.grid>div:nth-child(1) {
+    grid-area: 1 / 1 / span 1 / span 2; 
   }
+
+.grid>div:nth-child(n+2) {
+    grid-area: auto; 
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.withoutImages{
+    display: flex;
+    width: 100%;
+    height: 100%;
+
+    background-color: gray;
+
+    color:white;
+
+    font-family: 'Roboto', sans-serif;
+
+    font-size: 1em;
+
+    justify-content: center;
+    align-items:center ;
+
+    grid-area: 1 / 1 / span 1 / span 2; 
 }
 
-.App-link {
-  color: #61dafb;
+
+.grid>figure {
+    grid-area: auto; 
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.dataDisplay{
+    padding-top: 45px;
+    padding-bottom: 45px;
+    border-bottom: solid 1px black;
+}
+
+.indData{
+    width: calc(100% - 20px);
+    border-bottom: solid 1px black; 
+    border-top: solid 1px black; 
+    margin-bottom: 10px;
+    padding: 10px;
+
+    background-color: white;
+}
+
+.imageA{
+    width: 100%;
+    height: 200px; 
+    position: relative;
+}
+
+figure{
+    width: 100%;
+    height: 100%;
+}
+
+figure>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.caixaInfos{
+    width: calc(100% - 20px);
+    background-color: rgb(233, 233, 233);
+    padding: 10px;
+}
+
+
+#textoApi{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+footer{
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+    column-gap: 15px;;
+    
+    background-color: var(--green);
+    padding: 15px 20px;
+
+}
+
+footer p{
+    color:white;
+    font-size: 0.8em;
+}
+
+footer>div>p:nth-child(2){
+    margin-top: 10px;
+}
+
+@media (max-width: 713px){
+    .textoBlocoEntr{
+        width: calc(80% - 40px) !important;
+    }
+    .all{
+        width: 100%  !important;
+    }
+}
+
+@media (max-width: 1201px){
+    .all{
+        width: 100%;
+    }
+
+    .textoBlocoEntr{
+        width: calc(80% - 40px) !important;
+    }
+
+    .grid{
+        width: 100%;
+        grid-template-columns: 1fr 1fr ;
+    }
+    
+    .grid>div:nth-child(1) {
+        grid-area: 1 / 1 / span 1 / span 1; 
+      }
+    
 }

@@ -1,0 +1,49 @@
+/*////////////////////////////Roboto*/
+@font-face {
+    font-family: "Roboto";
+    src: local("Roboto"),
+     url("../media/fonts/Roboto-Regular.ttf") format("truetype");
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: local("Roboto"),
+     url("../media/fonts/Roboto-Light.ttf") format("truetype");
+    font-weight: lighter;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: local("Roboto"),
+     url("../media/fonts/Roboto-Medium.ttf") format("truetype");
+    font-weight: medium;
+}
+
+
+/*////////////////////////////ENRIQUETA*/
+@font-face {
+    font-family: "Enriqueta";
+    src: local("Enriqueta"),
+     url("../media/fonts/Enriqueta-Regular.ttf") format("truetype");
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Enriqueta";
+    src: local("Enriqueta"),
+     url("../media/fonts/Enriqueta-Medium.ttf") format("truetype");
+    font-weight: medium;
+}
+@font-face {
+    font-family: "Enriqueta";
+    src: local("Enriqueta"),
+     url("../media/fonts/Enriqueta-Bold.ttf") format("truetype");
+    font-weight: bold;
+}
+@font-face {
+    font-family: "Enriqueta";
+    src: local("Enriqueta"),
+     url("../media/fonts/Enriqueta-SemiBold.ttf") format("truetype");
+    font-weight: bolder;
+}
+   

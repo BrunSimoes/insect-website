@@ -1,0 +1,117 @@
+
+
+.searchDiv{
+ width: 100%;
+ height: auto;
+}
+
+input[name="search"]{
+ width:calc(100% - 24px);
+ height: 30px;
+
+ background-color: var(--green);
+
+ color: white;
+ border:none;
+ border-bottom: white solid 1px;
+
+ padding: 0 10px;
+
+ font-size: 1em;
+}
+
+::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+    opacity: 1; 
+    font-size: 1em;
+}
+
+::-ms-input-placeholder { 
+    color:rgba(255, 255, 255, 0.5);
+    font-size: 1em;
+}
+
+input[name="search"]:focus {
+    border:none;
+    border-bottom: white solid 1px;
+    outline: none;
+}
+
+select{
+ height: 30px;
+ background-color: var(--green);
+
+ color: white;
+ border:none;
+ border-bottom: white solid 1px;
+
+ padding: 0 10px;
+
+ font-size: 1em;
+}
+
+select:focus {
+    border:none;
+    border-bottom: white solid 2px;
+    outline: none;
+}
+
+option:nth-child(n):hover {
+    background-color: greenyellow;
+}
+
+.parametros{
+ width: calc(100% - 40px);
+ height: auto;
+
+ display: grid;
+ grid-template-columns: 35% 20% 25%;
+ column-gap: 10px;
+ align-items: center;
+
+ background-color: var(--green);
+
+ padding: 15px 20px;
+}
+
+.searchDiv,.filterDiv,.orderDiv{
+ display: flex;
+
+ align-items: center;
+}
+
+.filterDiv>select{
+    width: calc(100% - 22px);
+}
+
+.orderDiv>div:last-child{
+    width: calc(100% - 18px);
+}
+
+.orderDiv>div:last-child>select{
+    width: calc(50% - 5px);
+}
+
+.orderDiv>div:last-child>select:first-child{
+    margin-right: 10px;
+}
+
+
+.iconDiv{
+    width: 18px;
+    height: 18px;
+}
+
+.icon{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@media (max-width: 713px){
+   
+    .parametros{
+        grid-template-columns:  1fr; 
+        row-gap: 20px;
+    }
+}

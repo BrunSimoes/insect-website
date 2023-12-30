@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="11.573301mm"
+   height="11.692335mm"
+   viewBox="0 0 11.573301 11.692335"
+   version="1.1"
+   id="svg1"
+   inkscape:export-filename="funil.svg"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Camada 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-0.21334917,-0.15383232)">
+    <g
+       id="g6"
+       transform="translate(0.16334928,25.103831)"
+       inkscape:export-filename="lupa.svg"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
+      <circle
+         style="fill:none;stroke:#ffffff;stroke-width:1.1;stroke-dasharray:none"
+         id="path1"
+         cx="4.7562966"
+         cy="-20.243702"
+         r="4.1562967" />
+      <path
+         style="fill:none;stroke:#ffffff;stroke-width:1.1;stroke-dasharray:none"
+         d="m 7.4902328,-17.658636 3.7295292,4.027268"
+         id="path2"
+         sodipodi:nodetypes="cc" />
+    </g>
+  </g>
+</svg>
